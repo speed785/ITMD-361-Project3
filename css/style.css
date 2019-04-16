@@ -1,0 +1,87 @@
+/*Nav*/
+nav #Menu{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+/*
+All text is centered except h2
+*/
+h1, h3,p,li {
+    display: block;
+    padding: .50%;
+    text-align: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*no underline and moved header h2*/
+h2 {
+    text-decoration: none;
+    margin-left: 5%;
+    text-decoration: coral;
+    font-size: larger;
+}
+/*Centers images*/
+img {
+    margin:auto;
+    display: block;
+    width: 50%;
+    border-radius: 100%;
+    background-size: contain;
+    box-shadow: 0 0 10px#000;
+    border:5px solid #FFE230;
+    text-align: center;
+
+}
+
+/*Youtube video centered*/
+iframe {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 50%;
+    text-align: center;
+}
+
+/*Removes underline*/
+.list,
+a {
+    text-decoration: none;
+    position: static;
+    margin:auto;
+}
+/*Nav yellow box*/
+nav #Menulist {
+    font-family: 'Josefin Sans', sans-serif;
+    float: bottom;
+    width: 50%;
+    background-color: #FFE230;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+#Menulist a {
+    display: block;
+    color: mediumpurple;
+    padding: .50%;
+    width: max-content;
+    height: max-content;
+}
+.list a:hover {
+    font-size: large;
+}
+body {
+    background-image:
+            linear-gradient(to left top, #FF512F, #F09819);
+    color: #16222a;
+    font-family: 'Josefin Sans', sans-serif
+}
