@@ -63,7 +63,7 @@ nav #Menulist {
     background-color: #FFE230;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
     margin-top: auto;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     border-radius: 30px;
@@ -84,4 +84,11 @@ body {
             linear-gradient(to left top, #FF512F, #F09819);
     color: #16222a;
     font-family: 'Josefin Sans', sans-serif
+}
+
+#map {
+  width: 500px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
