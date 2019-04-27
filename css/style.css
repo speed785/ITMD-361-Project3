@@ -27,7 +27,7 @@ h2 {
     font-size: larger;
 }
 /*Centers images*/
-img {
+.me {
     margin:auto;
     display: block;
     width: 50%;
@@ -40,14 +40,18 @@ img {
 }
 
 /*Youtube video centered*/
-iframe {
+#youtube {
+    width: 50%;
+    height: 20em;
+    position: static;
+    border: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 50%;
+    display: block;
     margin-right: auto;
     margin-left: auto;
-    display: block;
-    width: 50%;
-    text-align: center;
 }
-
 /*Removes underline*/
 .list,
 a {
