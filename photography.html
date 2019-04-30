@@ -6,6 +6,7 @@
   <link rel="stylesheet" media="screen" href="css/normalize.css">
   <link rel="stylesheet" media="screen" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="JS/slideshow.js" async defer></script>
 </head>
   <body>
     <nav id="Menu">
@@ -17,7 +18,17 @@
       </ul>
     </nav>
     <section>
-      <img class="me" src="images/vsco_022916.jpg" alt="The Dusk Series [Instant Overturn]">
+      <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="HandheldFriendly" content="true">
+      <img class="mySlides" src="images/vsco_022916.jpg" alt="The Dusk Series [Instant Overturn]">
+        <div class="text">The Dusk Series [Instant Overturn]</div>
+      <img class="mySlides" src="images/vsco_020717.jpg" alt="3 arts café">
+        <div class="text">3 Arts Café</div>
+      <img class="mySlides" src="images/vsco_013117.jpg" alt="MCA">
+        <div class="text">MCA</div>
+        <button class="left-button" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="right-button" onclick="plusDivs(+1)">&#10095;</button>
       <h2>The Dusk Series</h2>
       <ul>
         <li>I called this Instant Overturn because of the raging storm that was taking place.</li>

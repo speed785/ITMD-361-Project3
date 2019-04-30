@@ -1,98 +1,168 @@
 /*Nav*/
 nav #Menu{
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
 }
 
 /*
 All text is centered except h2
 */
-h1, h3,p,li {
-    display: block;
-    padding: .50%;
-    text-align: center;
-    list-style-type: none;
-    text-decoration: none;
-    margin-left: 10%;
-    margin-right: 10%;
+h1,h3,p,li {
+  display: block;
+  padding: .50%;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*Font size change*/
+h3{
+  font-size: 30px;
 }
 
 /*no underline and moved header h2*/
 h2 {
-    text-decoration: none;
-    margin-left: 5%;
-    text-decoration: coral;
-    font-size: larger;
+  text-decoration: none;
+  margin-left: 5%;
+  text-decoration: coral;
+  font-size-adjust: auto;
 }
 /*Centers images*/
 .me {
-    margin:auto;
-    display: block;
-    width: 50%;
-    border-radius: 100%;
-    background-size: contain;
-    box-shadow: 0 0 10px#000;
-    border:5px solid #FFE230;
-    text-align: center;
-
+  margin: auto;
+  display: block;
+  width: 50%;
+  height: auto;
+  border-radius: 20%;
+  background-size: contain;
+  box-shadow: 0 0 10px#000;
+  border:5px solid #FFE230;
+  text-align: center;
 }
+/*photo slideshow*/
+.mySlides{
+  margin: auto;
+  width: 70%;
+  height: auto;
+  background-size: contain;
+}
+/*Under->photos description*/
+.text{
+  margin-left: auto;
+  margin-right: auto;
+  position: center;
+  width: 50%;
+  height: auto;
+  padding: 10px;
+}
+
+.left-button{
+  display: block;
+  margin: auto;
+  float: left,bottom;
+  text-align: center;
+  box-shadow: 0 0 10px#000;
+  padding: 20px;
+}
+.right-button{
+  display: block;
+  float: right,top;
+  margin:  auto;
+  text-align: center;
+  box-shadow: 0 0 10px#000;
+  padding: 20px;
+}
+
+/*scalable for photography.html page*/
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
 
 /*Youtube video centered*/
 #youtube {
-    width: 50%;
-    height: 20em;
-    position: static;
-    border: 0px;
-    margin: auto;
-    max-width: 100%;
-    max-height: 50%;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+  width: 50%;
+  height: 20em;
+  position: static;
+  border: 0px;
+  margin: auto;
+  max-width: 100%;
+  max-height: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
 }
+
 /*Removes underline*/
 .list,
 a {
-    text-decoration: none;
-    position: static;
-    margin:auto;
+  text-decoration: none;
+  position: static;
+  margin:auto;
 }
-/*Nav yellow box*/
-nav #Menulist {
-    font-family: 'Josefin Sans', sans-serif;
-    float: bottom;
-    width: 50%;
-    background-color: #FFE230;
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    border-radius: 30px;
+/*Part of Nav~for centering*/
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;/*Used for centering the Nav*/
 }
 
+/*Nav yellow box*/
+nav #Menulist {
+  font-family: 'Josefin Sans', sans-serif;
+  width: 50%;
+  background-color: #FFE230;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4);
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  border-radius: 30px;
+
+}
+/*Color for Nav*/
 #Menulist a {
-    display: block;
-    color: mediumpurple;
-    padding: .50%;
-    width: max-content;
-    height: max-content;
+  display: block;
+  color: mediumpurple;
+  padding: .50%;
+  width: max-content;
+  height: max-content;
 }
+/*Hover animation*/
 .list a:hover {
-    font-size: large;
+  font-size: large;
 }
+
 body {
-    background-image:
-            linear-gradient(to left top, #FF512F, #F09819);
-    color: #16222a;
-    font-family: 'Josefin Sans', sans-serif
+  background-image:/*Gradient Orange*/
+          linear-gradient(to left top, #FF512F, #F09819);
+  color: #ffdb58;/*Mustard*/
+  font-family: 'Josefin Sans', sans-serif
 }
 
 #map {
-  width: 500px;
-  height: 500px;
-  margin-left: auto;
+  width: 50%;
+  height: 20em;
+  position: static;
+  border: 0px;
+  margin: auto;
+  max-width: 100%;
+  max-height: 50%;
+  display: block;
   margin-right: auto;
+  margin-left: auto;
 }
