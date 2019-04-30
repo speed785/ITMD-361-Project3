@@ -30,6 +30,12 @@ h2 {
   text-decoration: coral;
   font-size-adjust: auto;
 }
+
+#buttonlr {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
 /*Centers images*/
 .me {
   margin: auto;
