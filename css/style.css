@@ -116,12 +116,18 @@ img{
   margin-left: auto;
 }
 
+.list{
+  text-align: center;
+}
+
 /*Removes underline*/
 .list,
 a {
   text-decoration: none;
   position: static;
   margin:auto;
+  float: left;
+  text-align: center;
 }
 /*Part of Nav~for centering*/
 ul {
@@ -144,15 +150,17 @@ nav #Menulist {
   margin-right: auto;
   overflow: hidden;
   border-radius: 30px;
+  text-align: center;
 
 }
 /*Color for Nav*/
 #Menulist a {
-  display: block;
   color: mediumpurple;
-  padding: .50%;
-  width: max-content;
-  height: max-content;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  position: static;
 }
 /*Hover animation*/
 .list a:hover {
