@@ -124,7 +124,6 @@ a {
   text-decoration: none;
   position: static;
   margin:auto;
-  float: left;
   text-align: center;
 }
 /*Part of Nav~for centering*/
@@ -171,7 +170,7 @@ body {
 figure {
   margin: auto;
   flex-direction: column;
-  max-width: 884px; 
+  max-width: 884px;
 }
 figcaption {
   text-align: center;
