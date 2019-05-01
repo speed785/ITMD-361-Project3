@@ -28,7 +28,6 @@ h2 {
   text-decoration: none;
   margin-left: 5%;
   text-decoration: coral;
-  font-size-adjust: auto;
 }
 
 img{
@@ -65,7 +64,6 @@ img{
 .text{
   margin-left: auto;
   margin-right: auto;
-  position: center;
   width: 50%;
   height: auto;
   padding: 10px;
@@ -74,14 +72,14 @@ img{
 .left-button{
   display: block;
   margin: auto;
-  float: left,bottom;
+  float: left;
   text-align: center;
   box-shadow: 0 0 10px#000;
   padding: 20px;
 }
 .right-button{
   display: block;
-  float: right,top;
+  float: right;
   margin:  auto;
   text-align: center;
   box-shadow: 0 0 10px#000;
@@ -133,11 +131,7 @@ a {
 ul {
   display: block;
   list-style-type: disc;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 0px;/*Used for centering the Nav*/
+  text-align: center; /*Used for centering the Nav*/
 }
 
 /*Nav yellow box*/
@@ -177,7 +171,7 @@ body {
 figure {
   margin: auto;
   flex-direction: column;
-  max-width: 884;
+  max-width: 884px;
 }
 figcaption {
   text-align: center;
